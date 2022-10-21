@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jax = {extras = [ "cpu"], version ="==0.3.20"}
+numpy = "==1.23.3"
+pandas = "==1.5.0"
+jupyterlab = "*"
+pax3 = "==0.5.9"
+matplotlib = "*"
+dm-haiku = {git = "https://github.com/deepmind/dm-haiku"}
+
+[requires]
+python_version = "3.10"
